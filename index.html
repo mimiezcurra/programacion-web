@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recetario de Mimi</title>
   </head>
   <body>
-    <header><h1>Recetas</h1> <img src="./portada recetario .jpeg" alt="imagen ilustrativa de encabezado del recetario"></header>
+    <header><h1 id="titulo">Recetas</h1> <img src="./portada recetario .jpeg" alt="imagen ilustrativa de encabezado del recetario" id="fotoportada"></header>
     <main> 
-    <p>Imagen para la pestaña:</p> <br>
-    <img src="./logo de pestaña.png" alt="">
-    <br> <br> <p> <h3> En este recetario vas a encontrar distintas recetas de comida, separadas de manera:</h3> 
+    <div class="boxpestaña">
+      <p>Imagen para la pestaña:</p> <br>
+    <img src="./logo de pestaña.png" alt="" id="fotopestaña">
+    </div>
+    
+    <br> <br> 
+    <div class="secciones">
+    <p> <h3> En este recetario vas a encontrar distintas recetas de comida, separadas de manera:</h3> 
     <ul>
-    <h4>estacional</h4>
-    <h4>por categorias</h4>
-    <h4>por alimento</h4>
-    </ul></p>
-    </main>
+      <li><h4 id="estacional">estacional</h4></li>
+      <li><h4 id="categorias">por categorias</h4></li>
+      <li><h4 id="alimento">por alimento</h4></li>
+    </ul></p></div>
+    </main>  
     <br><br><br>
     <p>Video de carga:</p>
     <video width="320" height="240" controls>

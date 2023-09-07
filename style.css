@@ -1,0 +1,10 @@
+body {background-color:#d9e7f4 ;}
+p {color: rgb(4, 7, 28);}
+#titulo {position:sticky;top: 0;; color:rgb(0, 0, 0);border: 2px solid #b0a69b ;background-color: #b0a69b;}
+#fotoportada {position:relative ;  left: 107px; border: 4px solid#b0a69b; width: 300px;}
+.boxpestaña {display:inline-block;border: 4px solid #b0a69b ;}
+#fotopestaña {width: 170px}
+#estacional {display:inline-block;border: 2px solid #b0a69b ;}
+#categorias{display:inline-block;border: 2px solid #b0a69b ;}
+#alimento{display:inline-block;border: 2px solid #b0a69b ;}
+.secciones {display:inline-block;border: 3px solid #b0a69b ;}
