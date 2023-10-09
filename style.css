@@ -22,9 +22,16 @@ p {color: rgb(4, 7, 28);}
 .sugerencias {display: inline-block;border: 3px solid #b0a69b ;  position:fixed ; bottom: 0; right: 0; width: 300px;background-color: #9fbfcc;}
 .ingresousuario {display: inline-block;border: 3px solid #b0a69b; background-color: #9fbfcc;}
 
-.formato-foto-ingredientes {}
-.formato-receta {}
+.formato-foto-ingredientes { display: grid; 
+    grid-template-columns: 0.8fr 1.2fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: ". .";
+    padding: 20px;}
 
+.formato-receta {padding: 20px;}
+#fotocheesecake {border: 3px solid #b0a69b ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
+.receta-cheesecake {border: 3px solid #b0a69b ; margin: 4%;}
 
 #footer {border: 3px solid #b0a69b; background-color: #9fbfcc;}
 
