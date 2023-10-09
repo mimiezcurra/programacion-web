@@ -13,13 +13,20 @@ p {color: rgb(4, 7, 28);}
 #fotoportada {position:relative ;  left: 110px; border: 4px solid#b0a69b; width: 300px; size: 20vw}
 #fotoportada2 {position:relative ;  left: 110px; border: 4px solid#b0a69b; width: 281px; size: 20vw}
 #fotoportada3 {position:relative ;  left: 110px; border: 4px solid#b0a69b; width: 261px;size: 20vw}
+
 .boxpestaña {display:inline-block;border: 4px solid #b0a69b ;}
 #fotopestaña {width: 170px}
+
 #estacional {display:inline-block;border: 2px solid #b0a69b ; background-color: #b0a69b ;}
+
 #categorias{display:inline-block;border: 2px solid #b0a69b ; background-color: #b0a69b ;}
+
 #alimento{display:inline-block;border: 2px solid #b0a69b ; background-color: #b0a69b ;}
+
 .secciones {display:inline-block;border: 3px solid #b0a69b ; background-color: #9fbfcc; margin: 20px;}
+
 .sugerencias {display: inline-block;border: 3px solid #b0a69b ;  position:fixed ; bottom: 0; right: 0; width: 300px;background-color: #9fbfcc;}
+
 .ingresousuario {display: inline-block;border: 3px solid #b0a69b; background-color: #9fbfcc;}
 
 .formato-foto-ingredientes { display: grid; 
@@ -28,10 +35,15 @@ p {color: rgb(4, 7, 28);}
     gap: 0px 0px; 
     grid-template-areas: ". .";
     padding: 20px;}
-
 .formato-receta {padding: 20px;}
+
 #fotocheesecake {border: 3px solid #b0a69b ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
 .receta-cheesecake {border: 3px solid #b0a69b ; margin: 4%;}
 
-#footer {border: 3px solid #b0a69b; background-color: #9fbfcc;}
+.receta-volcan-chocolate {border: 3px solid #b0a69b ; margin: 4%;}
+#fotovolcan-choco {border: 3px solid #b0a69b ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
 
+#footer {border: 3px solid #b0a69b; background-color: #9fbfcc; text-align: center;
+        width: 100% ;height: 60px; letter-spacing: 1px; display:flex ; justify-content: center;align-items: center; }
+
+        
