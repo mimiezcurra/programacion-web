@@ -1,3 +1,6 @@
+
+.navbar {position: sticky}
+
 body {background-color:#d9e7f4 ;}
 p {color: rgb(4, 7, 28);}
 #fototitulo {position: relative ; size: 7% ; width: 35px ;top: 10px}
@@ -50,5 +53,18 @@ p {color: rgb(4, 7, 28);}
 @media screen and (max-width:600px) {
 
     .fotos-inicio {display: flex; justify-content: center ; align-items: center; width: 100%; flex-direction: column;}
+    
+}
+
+@media screen and (max-width:600px) {
+
+    .formato-foto-ingredientes  {display: flex; justify-content: center ; align-items: center; width: 100%; flex-direction: column;}
+    
+}
+
+
+@media screen and (max-width:600px) {
+
+    .formato-receta {display: flex; justify-content: center ; align-items: center; width: 100%; flex-direction: column;}
     
 }
