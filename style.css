@@ -6,31 +6,40 @@ p {color: rgb(4, 7, 28);}
 #fototitulo {position: relative ; size: 7% ; width: 35px ;top: 10px}
 
 .flex-titulo {
-    position:sticky;top: 0; color:rgb(0, 0, 0); background-color: #b0a69b; width: 100%;
+    position:sticky;top: 0; color:rgb(0, 0, 0); background-color: solid#cfc9ba; width: 100%;
     display:flex ; justify-content: space-between ; justify-content: start;}
 
 #fototitulo { width: 60px}
 
 
-.fotos-inicio {display: flex; justify-content: center ; width: 100%; border: solid red 0px;}
-#fotoportada { border: 4px solid#b0a69b; width: 300px; size: 20vw}
-#fotoportada2 {border: 4px solid#b0a69b; width: 300px; size: 20vw}
-#fotoportada3 { border: 4px solid#b0a69b; width: 300px;size: 20vw}
+.fotos-inicio {display: flex; justify-content: center ; width: 100%; border: solid red 2px;}
+#fotoportada { border: 4px solid#cfc9ba; width: 300px; size: 20vw}
+#fotoportada2 {border: 4px solid#cfc9ba; width: 300px; size: 20vw}
+#fotoportada3 { border: 4px solid#cfc9ba; width: 300px;size: 20vw}
 
-.boxpestaña {display:inline-block;border: 4px solid #b0a69b ;}
+.introduccion { border: 4px solid#cfc9ba ; background-color: solid#cfc9ba ; margin: 20px}
+
+.boxpestaña {display:inline-block;border: 4px solid#cfc9ba ;}
 #fotopestaña {width: 170px}
 
-#estacional {display:inline-block;border: 2px solid #b0a69b ; background-color: #b0a69b ;}
+#estacional {display:inline-block;border: 2px solid#cfc9ba ; background-color: solid#cfc9ba ;}
 
-#categorias{display:inline-block;border: 2px solid #b0a69b ; background-color: #b0a69b ;}
+#categorias{display:inline-block;border: 2px solid#cfc9ba ; background-color:solid#cfc9ba;}
 
-#alimento{display:inline-block;border: 2px solid #b0a69b ; background-color: #b0a69b ;}
+#alimento{display:inline-block;border: 2px solid#cfc9ba ; background-color:solid#cfc9ba ;}
 
-.secciones {display:inline-block;border: 3px solid #b0a69b ; background-color: #9fbfcc; margin: 20px;}
+.secciones {display: flex; justify-content: center ;border: 3px solid#cfc9ba; margin: 20px;}
 
-.sugerencias {display: inline-block;border: 3px solid #b0a69b ;  position:fixed ; bottom: 0; right: 0; width: 300px;background-color: #9fbfcc;}
+.sugerencias {display: inline-block;border: 3px solid#cfc9ba ;  position:fixed ; bottom: 0; right: 0; width: 300px;background-color: #9fbfcc;}
 
-.ingresousuario {display: inline-block;border: 3px solid #b0a69b; background-color: #9fbfcc;}
+.ingresousuario {display: inline-block;justify-content: center; border: 3px solid#cfc9ba; background-color: #9fbfcc;}
+.flexingresousuario {
+    display: grid; 
+    grid-template-columns: 1fr 1.2fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: ". . ."; }
+
 
 .formato-foto-ingredientes { display: grid; 
     grid-template-columns: 0.8fr 1.2fr; 
@@ -40,13 +49,13 @@ p {color: rgb(4, 7, 28);}
     padding: 20px;}
 .formato-receta {padding: 20px;}
 
-#fotocheesecake {border: 3px solid #b0a69b ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
-.receta-cheesecake {border: 3px solid #b0a69b ; margin: 4%;}
+#fotocheesecake {border: 3px solid#cfc9ba ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
+.receta-cheesecake {border: 3px solid#cfc9ba ; margin: 4%;}
 
-.receta-volcan-chocolate {border: 3px solid #b0a69b ; margin: 4%;}
-#fotovolcan-choco {border: 3px solid #b0a69b ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
+.receta-volcan-chocolate {border: 3px solid#cfc9ba ; margin: 4%;}
+#fotovolcan-choco {border: 3px solid#cfc9ba ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
 
-#footer {border: 3px solid #b0a69b; background-color: #9fbfcc; text-align: center;
+#footer {border: 3px solid#cfc9ba; background-color: #9fbfcc; text-align: center;
         width: 100% ;height: 60px; letter-spacing: 1px; display:flex ; justify-content: center;align-items: center; }
 
         
