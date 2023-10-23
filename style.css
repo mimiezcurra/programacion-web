@@ -12,7 +12,7 @@ p {color: rgb(4, 7, 28);}
 #fototitulo { width: 60px}
 
 
-.fotos-inicio {display: flex; justify-content: center ; width: 100%; border: solid red 2px;}
+.fotos-inicio {display: flex; justify-content: center ; width: 100%; border: solid red 0px;}
 #fotoportada { border: 4px solid#cfc9ba; width: 300px; size: 20vw}
 #fotoportada2 {border: 4px solid#cfc9ba; width: 300px; size: 20vw}
 #fotoportada3 { border: 4px solid#cfc9ba; width: 300px;size: 20vw}
@@ -40,20 +40,27 @@ p {color: rgb(4, 7, 28);}
     gap: 0px 0px; 
     grid-template-areas: ". . ."; }
 
-
+.tipo-receta { padding: 25px}
 .formato-foto-ingredientes { display: grid; 
     grid-template-columns: 0.8fr 1.2fr; 
     grid-template-rows: 1fr; 
     gap: 0px 0px; 
     grid-template-areas: ". .";
     padding: 20px;}
-.formato-receta {padding: 20px;}
+.formato-preparacion {padding: 20px;}
+.cuadro-receta{border: 3px solid#cfc9ba ; margin: 4%;}
+
 
 #fotocheesecake {border: 3px solid#cfc9ba ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
-.receta-cheesecake {border: 3px solid#cfc9ba ; margin: 4%;}
 
-.receta-volcan-chocolate {border: 3px solid#cfc9ba ; margin: 4%;}
 #fotovolcan-choco {border: 3px solid#cfc9ba ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
+
+#fotobrownie {border: 3px solid#cfc9ba ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
+
+#fotomuffins-banana {border: 3px solid#cfc9ba ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
+
+
+.tips {border: 3px solid#cfc9ba ; margin: 4%;}
 
 #footer {border: 3px solid#cfc9ba; background-color: #9fbfcc; text-align: center;
         width: 100% ;height: 60px; letter-spacing: 1px; display:flex ; justify-content: center;align-items: center; }
