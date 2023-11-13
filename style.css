@@ -1,13 +1,12 @@
 
 .navbar {position: sticky}
 
-body {background-color:#d9e7f4 ;}
+body {background-color:#e6c1b0 ;}
 p {color: rgb(4, 7, 28);}
 #fototitulo {position: relative ; size: 7% ; width: 35px ;top: 10px}
 
-.flex-titulo {
-    position:sticky;top: 0; color:rgb(0, 0, 0); background-color: solid#cfc9ba; width: 100%;
-    display:flex ; justify-content: space-between ; justify-content: start;}
+.flex-titulo {position:sticky;top: 0; color:rgb(0, 0, 0); background-color: solid#cfc9ba; width: 100%;
+display:flex ; justify-content: space-between ; justify-content: start;}
 
 #fototitulo { width: 60px}
 
@@ -46,24 +45,25 @@ p {color: rgb(4, 7, 28);}
     grid-template-rows: 1fr; 
     gap: 0px 0px; 
     grid-template-areas: ". .";
-    padding: 20px;}
-.formato-preparacion {padding: 20px;}
-.cuadro-receta{border: 3px solid#cfc9ba ; margin: 4%;}
+    padding: 20px; background-color: #8cb6bc;}
+.formato-preparacion {padding: 20px;background-color: #8cb6bc;}
+
+.cuadro-receta{border: 3px solid#0E8992 ; background-color:solid#8cb6bc ; margin: 4%;}
 
 
-#fotocheesecake {border: 3px solid#cfc9ba ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
+#fotocheesecake {border: 3px solid#0E8992 ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
 
-#fotovolcan-choco {border: 3px solid#cfc9ba ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
+#fotovolcan-choco {border: 3px solid#0E8992 ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
 
-#fotobrownie {border: 3px solid#cfc9ba ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
+#fotobrownie {border: 3px solid#0E8992 ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
 
-#fotomuffins-banana {border: 3px solid#cfc9ba ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
+#fotomuffins-banana {border: 3px solid#0E8992 ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
 
-#fotopure-zanahoria {border: 3px solid#cfc9ba ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
+#fotopure-zanahoria {border: 3px solid#0E8992 ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
 
 .tips {border: 3px solid#cfc9ba ; margin: 4%;}
 
-#footer {border: 3px solid#cfc9ba; background-color: #9fbfcc; text-align: center;
+#footer {border: 3px solid#8cb6bc; background-color: #8cb6bc; text-align: center;
         width: 100% ;height: 60px; letter-spacing: 1px; display:flex ; justify-content: center;align-items: center; }
 
         
