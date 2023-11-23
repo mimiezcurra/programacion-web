@@ -6,7 +6,7 @@ login
 */
 
 
-
+function mostrarMensaje() {
 Swal.fire({
         title: "Do you want to save the changes?",
         showCancelButton: true,
@@ -18,4 +18,4 @@ Swal.fire({
         } else if (result.isDenied) {
           Swal.fire("Changes are not saved", "", "info");
         }
-      });
+      })};

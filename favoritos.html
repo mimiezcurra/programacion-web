@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="./logo-de-pestana.ico">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="miJava.js"></script>
+    <script src=./miJava.js></script>
     <title> Recetario de Mimi - Favoritos </title>
 </head>
 <body>
@@ -49,13 +49,12 @@
                 <label for="contraseña:"> Contraseña:</label>
                 <input type="text" name="contraseña:" id="" placeholder="Contraseña">
                 <br><br>
-                <button id='login' onclick="Swal.fire()" type=»submit»> Login </button>
+                <button id="login" onclick="mostrarMensaje()" type="button"> Login </button>
             </div>
             </div>
         </form>
             
-        <script type=»module» src=»./login/login.js»></script>
-
+        <script type="module" src="./login/login.js"></script>
     </main>
 </body>    
     

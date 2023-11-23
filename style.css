@@ -39,7 +39,7 @@ display:flex ; justify-content: space-between ; justify-content: start;}
     gap: 0px 0px; 
     grid-template-areas: ". . ."; }
 
-.tipo-receta { padding: 25px}
+#tipo-receta { padding: 25px ; border: 3px #0E8992;}
 .formato-foto-ingredientes { display: grid; 
     grid-template-columns: 0.8fr 1.2fr; 
     grid-template-rows: 1fr; 
