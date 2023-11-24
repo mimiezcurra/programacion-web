@@ -16,7 +16,16 @@ display:flex ; justify-content: space-between ; justify-content: start;}
 #fotoportada2 {border: 4px solid#cfc9ba; width: 300px; size: 20vw}
 #fotoportada3 { border: 4px solid#cfc9ba; width: 300px;size: 20vw}
 
-.introduccion { border: 4px solid#cfc9ba ; background-color: solid#cfc9ba ; margin: 20px}
+.introduccion {
+    display: grid; 
+    grid-template-columns: 0.3fr 1.8fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas:". ."; border: 4px solid#8cb6bc ; background-color: solid#8cb6bc ; margin: 20px}
+
+#foto-mimi {width: 165px; justify-content: center;}
+.texto-intro {justify-content: start ; background-color: solid#8cb6bc }
+
 
 .boxpestaña {display:inline-block;border: 4px solid#cfc9ba ;}
 #fotopestaña {width: 170px}
@@ -27,11 +36,11 @@ display:flex ; justify-content: space-between ; justify-content: start;}
 
 #alimento{display:inline-block;border: 2px solid#cfc9ba ; background-color:solid#cfc9ba ;}
 
-.secciones {display: flex; justify-content: center ;border: 3px solid#cfc9ba; margin: 20px;}
+.secciones {display: flex; justify-content: center ;border: 3px solid#8cb6bc; ;}
 
 .sugerencias {display: inline-block;border: 3px solid#cfc9ba ;  position:fixed ; bottom: 0; right: 0; width: 300px;background-color: #9fbfcc;}
 
-.ingresousuario {display: inline-block;justify-content: center; border: 3px solid#cfc9ba; background-color: #9fbfcc;}
+
 .flexingresousuario {
     display: grid; 
     grid-template-columns: 1fr 1.2fr 1fr; 
@@ -54,15 +63,7 @@ display:flex ; justify-content: space-between ; justify-content: start;}
 .cuadro-receta{border: 3px solid#0E8992 ; background-color:solid#8cb6bc ; margin: 4%;}
 
 
-#fotocheesecake {border: 3px solid#0E8992 ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
-
-#fotovolcan-choco {border: 3px solid#0E8992 ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
-
-#fotobrownie {border: 3px solid#0E8992 ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
-
-#fotomuffins-banana {border: 3px solid#0E8992 ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
-
-#fotopure-zanahoria {border: 3px solid#0E8992 ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
+#formato-foto-receta  {border: 3px solid#0E8992 ; width: 350px;size: 35vw ; display: flex ; justify-content: space-around;}
 
 .tips {border: 3px solid#cfc9ba ; margin: 4%; background-color:#8cb6bc ;}
 
