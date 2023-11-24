@@ -20,3 +20,24 @@ Swal.fire({
         }
       })};
 
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('form[role="search"]').addEventListener('submit', function(event) {
+        event.preventDefault(); // Evita el comportamiento predeterminado del formulario
+
+        const searchText = document.querySelector('input[type="search"]').value.toLowerCase();
+        const recipes = document.querySelectorAll('.cuadro-receta');
+
+        recipes.forEach(function(recipe) {
+            const recipeName = recipe.querySelector('h1').textContent.toLowerCase();
+            const recipeId = recipe.getAttribute('id');
+
+            if (recipeName.includes(searchText)) {
+                window.location.href = `#${recipeId}`;
+            }
+        });
+    });
+});
+
